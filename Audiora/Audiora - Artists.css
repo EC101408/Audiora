@@ -1,0 +1,50 @@
+﻿body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #4b2a88);
+    color: #ffffff;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+#Logo {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+}
+
+#AccueilPlaylistArtist {
+    position: absolute;
+    top: 90px;
+    border-spacing: 20px;
+}
+
+a:hover {
+    color: #ff6a00;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#Accueil {
+    position: absolute;
+    top: 20px;
+    left: 575px;
+}
+
+#TitreAccueil {
+    text-decoration: underline;
+    position: absolute;
+    top: 100px;
+    left: 775px;
+}
+
+#txtsecondair {
+    color: #aab4c4;
+}
+
+#Barth {
+    position: absolute;
+    top: 200px;
+}

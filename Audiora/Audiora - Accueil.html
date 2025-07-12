@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Audiora</title>
+    <link rel="stylesheet" href="Audiora - Accueil.css" type="text/css" />
+    <link rel="icon" type="image/png" href="C:\Users\Evan\OneDrive\Bureau\Visual Studio 2022\HTML\Audiora\Images\Icon - Audiora.png">
+    <script src="Audiora - Accueil.js"></script>
+</head>
+<body>
+    <img src="../Audiora/Images/Logo.png" id="Logo" />
+    <h1 id="Accueil">🎧 Bienvenue sur Audiora</h1>
+    <h2 id="TitreAccueil">Accueil</h2>
+
+    <table id="AccueilPlaylistArtist">
+        <tr>
+            <td><a href="C:\Users\Evan\OneDrive\Bureau\Visual Studio 2022\HTML\Audiora\Audiora - Accueil.html">Accueil</a></td>
+            <td><a href="C:\Users\Evan\OneDrive\Bureau\Visual Studio 2022\HTML\Audiora\Audiora - PlayList.html">Playlist</a></td>
+            <td><a href="C:\Users\Evan\OneDrive\Bureau\Visual Studio 2022\HTML\Audiora\Audiora - Artists.html">Artists</a></td>
+        </tr>
+    </table>
+
+    <div id="MeilleurMoment">
+        <h2 id="txtsecondair">🔥 Meilleur son du moment :</h2>
+        <table id="Description_meilleur">
+            <tr>
+                <td>
+                    <h3 id="txtsecondair">✨ À propos du morceau</h3>
+                    <p>
+                        Code est une plongée immersive dans l’univers numérique de Barth. Mêlant des sonorités électroniques
+                        épurées à des touches mélodiques envoûtantes, le morceau offre une atmosphère à la fois futuriste et
+                        contemplative.
+                    </p>
+                    <p>
+                        Barth y propose un rythme progressif, idéal pour la concentration, le codage, ou simplement pour s’évader
+                        dans une ambiance synthwave douce et moderne.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="txtsecondair">🎵 Présentation du son Code – Barth</h3>
+                    <ul>
+                        <li>🎧 Titre : Code</li>
+                        <li>👤 Artiste : Barth</li>
+                        <li>📀 Genre : Electro / Chill / Instrumental</li>
+                        <li>📅 Sortie : 13 Avril 2018</li>
+                        <li>⌛ Temps : 3m 28s</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="musicaccueil">
+        <img src="C:\Users\Evan\OneDrive\Bureau\Visual Studio 2022\HTML\Audiora\Chansons\Barth\Barth.png" id="imgaccueil" />
+
+        <div id="btnaccueil">
+            <table id="Meilleur">
+                <tr>
+                    <td>
+                        <!-- Image pour les btn "Play" et "Pause" -->
+                        <img src="Images/Pause.png"
+                             id="pp"
+                             onclick="TogglePlayPause()"
+                             class="Icon" />
+                    </td>
+                    <td>
+                        <!-- Btn pour le btn "Stop" -->
+                        <img src="Images/Stop.png"
+                             onclick="RestartMusic()"
+                             id="Stop"
+                             class="Icon" />
+                    </td>
+                    <td>
+                        <!-- Img pour le btn "Boucle" -->
+                        <img src="Images/Boucle.png"
+                             onclick="BoucleMusic()"
+                             class="Icon"
+                             id="Boucle" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="Paroleaccueil">
+        <table>
+            <tr>
+                <td>
+                    <h3 id="txtsecondair">Paroles :</h3>
+                    <p>
+                        Oh na-na
+                        Yeah, ih-yeah
+                    </p>
+
+                    <p>
+                        Tu m'inspires tellement
+                        Comment ne pas parler de toi?
+                        Évidemment que tu m'inspires une belle histoire
+                        Écoute cette mélodie
+                        Elle tourne dans ma tête, ça ne s'arrête plus
+                        Toutes les nuits
+                        Tu hantes des vies
+                    </p>
+
+                    <p>
+                        Oh na-na
+                        Elle fait tomber les gars du ghetto
+                        Ils trouvent ça impressionnant
+                        Elle a le charme pour les désarmer
+                        Elle a cette chose que personne n'a
+                        Elle vient des îles
+                        Elle me fascine
+                        Oh bébé
+                        Je sais que pour t'avoir, c'est pas si facile
+                    </p>
+
+                    <p>
+                        Je vois qu'tu ne fais pas la miss
+                        Donc si j'fais tout ça, c'est pas juste pour un kiff
+                        Allons loin de tous ces vices
+                        Et profitons pleinement de tout ce bénéfice
+                        Je n'te promets pas la lune
+                        Mais j'aurai le vaisseau pour t'y emmener
+                        Avec toi dans ma bulle, je serai mieux et plus fort que jamais
+                        Croit en ma plume, car oui, elle sonne vraie
+                        Oh na-na
+                        Rien de plus vrai
+                        Elle seule peut te donner tant d'attrait, baby
+                    </p>
+
+                    <p>
+                        Elle fait tomber les gars du ghetto
+                        Ils trouvent ça impressionnant
+                        Elle a le charme pour les désarmer
+                        Elle a cette chose que personne n'a
+                        Elle vient des iles
+                        Elle me fascine
+                        Oh bébé
+                        Je sais que pour t'avoir, c'est pas si facile
+                        Donc donne-moi le code, le mot de passe pour te plaire
+                        Je prendrai soin de ton corps, de mon espace si secret
+                    </p>
+
+                    <p>
+                        Donne-moi le code, le mot de passe s'il te plait
+                        Je prendrai soin de ton corps, de mon espace si secret
+                        Oh-oh-oh, oh, oh, oh, oh, oh, oh
+                        Oh-oh-oh, oh, oh, oh, oh, oh, oh
+                    </p>
+
+                    <p>
+                        Elle fait tomber les gars du ghetto
+                        Il trouve ça impressionnant
+                        Elle a le charme pour les désarmer
+                        Elle a cette chose que personne n'a
+                        Donc donne-moi le code, le mot de passe s'il te plait
+                        Je prendrai soin de ton corps, de mon espace si secret
+                        Oh-oh-oh, oh, oh, oh, oh, oh, oh
+                        Oh-oh-oh, oh, oh, oh, oh, oh, oh
+                        Yeah
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <audio src="..\Audiora\Chansons\Barth\Code - Barth.mp3" id="Code"></audio>
+</body>
+</html>
